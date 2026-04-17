@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses - Tamkeen English Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header class="main-header">
+    <div class="container header-inner">
+        <div class="logo-area">
+            <img src="images/logo.png" alt="Tamkeen English Academy logo" class="logo-img">
+            <span class="logo-text">Tamkeen English Academy</span>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="courses.html" class="active">Courses</a>
+            <a href="offers.html">Exclusive Offers</a>
+            <a href="placement-test.html">Placement Test</a>
+            <a href="team.html">Our Team</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="btn-whatsapp-header">WhatsApp us</button>
+        <button class="menu-toggle" data-menu-toggle>☰</button>
+    </div>
+</header>
+
+<main>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Our English Programs</h1>
+            <p class="page-subtitle">
+                Choose the course that matches your level and goal. All programs are designed for students in Saudi Arabia.
+            </p>
+        </div>
+    </section>
+
+    <section class="page-section">
+        <div class="container courses-grid">
+            <!-- Reuse course cards -->
+            <article class="course-card">
+                <img src="images/ielts-course.jpg" alt="IELTS preparation course">
+                <div class="course-body">
+                    <h3>IELTS Mastery Program</h3>
+                    <p class="course-level">Advanced • 8 Weeks</p>
+                    <p class="course-desc">
+                        Complete exam preparation including listening, reading, writing and speaking
+                        with full mock exams and detailed feedback.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">1,200 SAR</span>
+                        <span class="new-price">799 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="images/step-course.jpg" alt="STEP exam course">
+                <div class="course-body">
+                    <h3>STEP Excellence Course</h3>
+                    <p class="course-level">Upper-Intermediate • 6 Weeks</p>
+                    <p class="course-desc">
+                        Targeted practice and Saudi-focused strategies to help you achieve a high STEP score.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">950 SAR</span>
+                        <span class="new-price">649 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="images/toefl-general.jpg" alt="TOEFL course">
+                <div class="course-body">
+                    <h3>TOEFL Prep Track</h3>
+                    <p class="course-level">Advanced • 6 Weeks</p>
+                    <p class="course-desc">
+                        Build academic reading, listening and writing skills for university admission abroad.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">1,150 SAR</span>
+                        <span class="new-price">789 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="images/conversation.jpg" alt="Conversation club">
+                <div class="course-body">
+                    <h3>Conversation Club</h3>
+                    <p class="course-level">All Levels • Monthly</p>
+                    <p class="course-desc">
+                        Live speaking sessions with real-life topics, pronunciation practice and feedback.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">450 SAR</span>
+                        <span class="new-price">299 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="images/kids.jpg" alt="Kids English program">
+                <div class="course-body">
+                    <h3>Kids English Journey</h3>
+                    <p class="course-level">7–12 Years • 10 Weeks</p>
+                    <p class="course-desc">
+                        Story-based program that builds vocabulary, reading and speaking for young learners.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">800 SAR</span>
+                        <span class="new-price">549 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="images/collections.jpg" alt="General English collection">
+                <div class="course-body">
+                    <h3>General English Collection</h3>
+                    <p class="course-level">Beginner to Intermediate • 12 Weeks</p>
+                    <p class="course-desc">
+                        Structured levels from A1 to B1 focusing on grammar, vocabulary and everyday communication.
+                    </p>
+                    <div class="course-price">
+                        <span class="old-price">1,400 SAR</span>
+                        <span class="new-price">999 SAR</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Simple registration form (uses JS validation) -->
+    <section class="page-section">
+        <div class="container form-card">
+            <h2>Register your interest</h2>
+            <p>Fill in the form and our team will contact you with the best course for your level.</p>
+
+            <form data-validate="form">
+                <div class="form-row">
+                    <label>Full Name *</label>
+                    <input type="text" data-required>
+                </div>
+
+                <div class="form-row">
+                    <label>WhatsApp Number *</label>
+                    <input type="text" data-required>
+                </div>
+
+                <div class="form-row">
+                    <label>Preferred Course *</label>
+                    <select data-required>
+                        <option value="">Select a course</option>
+                        <option>IELTS Mastery Program</option>
+                        <option>STEP Excellence Course</option>
+                        <option>TOEFL Prep Track</option>
+                        <option>Conversation Club</option>
+                        <option>Kids English Journey</option>
+                        <option>General English Collection</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>Study Mode</label>
+                    <select>
+                        <option>Online</option>
+                        <option>On-site (Saudi Arabia)</option>
+                        <option>Hybrid</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn main-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="main-footer">
+    <div class="container footer-inner">
+        <p>&copy; 2026 Tamkeen English Academy. All rights reserved.</p>
+        <p>Based in Saudi Arabia – supporting learners across the Kingdom.</p>
+    </div>
+</footer>
+
+</body>
+</html>
